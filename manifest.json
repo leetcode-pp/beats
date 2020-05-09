@@ -1,0 +1,12 @@
+{
+  "name": "beats",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "beats anybody else if you want",
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode-cn.com/*", "*://leetcode.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
